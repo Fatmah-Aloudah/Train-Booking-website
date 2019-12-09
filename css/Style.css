@@ -1,0 +1,66 @@
+﻿/*this file was formated using 
+    https://htmlformatter.com/
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*The style for the header*/
+
+header {
+    overflow: hidden;
+    background-color: #333;
+}
+
+    header a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        header a.hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        header a.active {
+            background-color: #27f72b;
+            color: white;
+        }
+
+
+/*the style for the sidebar on the left*/
+
+#Sidebar {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    width: 160px;
+    background-color: #dcfffc;
+}
+
+
+/*the style for the home page*/
+
+.train {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px;
+    margin-left: 10%;
+}
+
+.TrainTable {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.BookedTable {
+    margin: 0 auto;
+    text-align: center;
+}
